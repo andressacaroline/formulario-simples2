@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro de clientes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+            <h1>Cadastro de clientes</h1>
+            <form action="#">
+              <div class="contro1">
+                <label for="name">Nome do cliente:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="contro2">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="contro3">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="contro4">
+                <label>Tipo de cliente:</label>
+                <label for="standard"><input type="radio" id="standard" name="client-type" value="standard"> Padrão</label>
+                <label for="preferred"><input type="radio" id="preferred" name="client-type" value="preferred"> Preferencial</label>
+              </div>
+              <!-- <h1>Endereço</h1> -->
+              <div class="contro5">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required>
+                <button type="button" onclick="buscarCEP()">Buscar</button>
+              </div>
+              <div class="contro6">
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro" readonly>
+              </div>
+              <div class="contro7">
+                <label for="numero">Número:</label>
+                <input type="text" id="numero" name="numero">
+              </div>
+              <div class="contro8">
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento">
+              </div>
+              <div class="contro9">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" readonly>
+              </div>
+              <div class="contro10">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" readonly>
+              </div>
+              <div class="contro11">
+                <label for="uf">UF:</label>
+                <input type="text" id="uf" name="uf" readonly>
+              </div>
+              <div class="contro12">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+    </div>
+  </body>
+</html>

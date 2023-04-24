@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: 4px #6a4fd6;
+}
+body{
+    font-family: "Monaco";
+    color: #e4f8f8;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(circulo1.avif);
+    background-size: cover;
+    background-position: center center;
+    background: linear-gradient(rgba(rgb(165, 170, 170),255,255,0.91));
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background: linear-gradient(#e4e9eafb, rgba(#6d787b4d));*/
+    width: 380px;
+    padding: 50px 30px;
+    /*border-radius: 10px;*/
+   /* box-shadow: 7px 7px 60px rgb(126, 125, 133);*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.contro input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #fefdfd;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.contro12 button[type="submit"]{
+    /*background: #6a4fd6;*/
+    /*color: #ffffff;*/
+    text-transform: uppercase;
+    /*font-size: 1.1em;*/
+    opacity: .7;
+    transition: opacity .3s ease;
+    font-weight: bold;
+    /*background-color: transparent;
+    /*border: 4px #6a4fd6 ;*/
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #b6b8be;
+	display:inline-block;
+	cursor:pointer;
+	color:#e4f8f8;
+	font-size:15px;
+	padding:10px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aaacb2;
+    position: relative;
+}
+
+.contro1, .contro2, .contro3, .contro4,.contro5,.contro6,.contro7,.contro8,.contro9,.contro10,.contro11,.contro12{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px #6a4fd6 ;
+  }
+.contro5 button {
+    background: #6a4fd6;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 1;
+    transition: opacity .3s ease;
+    opacity: 1;
+    font-weight: bold;
+    background-color: transparent;
+    border: 4px #6a4fd6 ;
+    cursor: pointer;
+  }
